@@ -1,0 +1,23 @@
+# Monitoring Stack: Prometheus & Grafana on Kubernetes
+
+A complete monitoring solution using Prometheus Operator, kube-state-metrics, and Grafana via the `kube-prometheus-stack` Helm chart.
+
+## 🔧 Installation
+
+### Prerequisites
+- Kubernetes cluster
+- `kubectl` configured
+- Helm 3+
+
+### Steps
+
+1. **Set up a local Kubernetes cluster (if not already running)**
+   - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) (includes Kubernetes) or [Minikube](https://minikube.sigs.k8s.io/docs/start/)
+   - Enable Kubernetes in Docker Desktop or start Minikube:
+     ```bash
+     minikube start --driver=docker
+     ```
+
+2. **Install Helm (if not installed)**
+   ```bash
+   brew install helm   

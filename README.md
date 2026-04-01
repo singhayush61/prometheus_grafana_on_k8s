@@ -20,7 +20,9 @@ Grafana
 Alertmanager
 kube-state-metrics
 Node Exporter
+
 ServiceMonitors for core Kubernetes components 
+
 📊 Access Grafana Dashboard
 Port-forward Grafana service
 kubectl port-forward svc/prometheus-grafana -n monitoring 3000:80
