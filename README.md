@@ -42,6 +42,8 @@ helm upgrade prometheus prometheus-community/kube-prometheus-stack -n monitoring
 
 Check official chart values for customization options. 
 
+
+
 🧹 Uninstall
 helm uninstall prometheus -n monitoring
 kubectl delete namespace monitoring
